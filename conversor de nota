@@ -1,0 +1,18 @@
+print ("------Conversor de Nota em Conceito do Luan------")
+
+nota = float (input("Digite o valor da nota"))
+
+if nota >= 9:
+    print ("Conceito A")
+
+elif nota < 8 and nota >= 7:
+    print ("Conceito B")
+
+elif nota <= 6 and nota >= 5:
+    print ("Conceito C")
+
+elif nota <= 4 and nota >= 2:
+    print ("Conceito C")
+
+else:
+    print ("Conceito F")
